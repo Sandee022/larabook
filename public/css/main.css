@@ -1,0 +1,117 @@
+.status-media, .comment-media {
+  border: 1px solid #E3E3E3;
+  background: white;
+  padding: 1em;
+  border-bottom: none; }
+
+.status-media-heading, .comment-media-heading {
+  color: #409dd1;
+  position: relative; }
+
+.status-media-body {
+  color: #B3BAC0;
+  font-size: 1.5em; }
+  .status-media-body p {
+    padding: 1em 0; }
+
+.comment-media-body {
+  color: #B3BAC0;
+  font-size: 1em; }
+  .comment-media-body p {
+    padding: 1em 0; }
+
+.comments__create-form textarea {
+  border: 1px solid #E3E3E3;
+  border-top: none;
+  border-radius: 0; }
+
+.status-media-object {
+  position: relative;
+  top: 0;
+  border: 1px solid #eeeeee; }
+
+.status-media-time {
+  text-transform: lowercase;
+  font-size: 0.6em;
+  color: #ccd0d3;
+  display: block; }
+
+.status-post {
+  border: 1px solid #E3E3E3;
+  background: white;
+  margin-bottom: 3em;
+  padding: 0; }
+  .status-post textarea {
+    border: none; }
+    .status-post textarea:focus {
+      box-shadow: none; }
+  .status-post .status-post-submit {
+    border-top: 1px solid #E9E9E9;
+    padding: 0.5em 1em;
+    margin-bottom: 0;
+    overflow: hidden;
+    background: #FDFCFC; }
+    .status-post .status-post-submit .btn {
+      float: right;
+      background: #2eb1e4;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-family: helvetica; }
+      .status-post .status-post-submit .btn:hover {
+        background: #2790b1; }
+
+.comments {
+  margin-bottom: 5em; }
+
+.comments__comment {
+  background: #f2f2f2;
+  margin-top: 0;
+  border: 1px solid #d9d9d9;
+  border-bottom: 1px solid #E3E3E3; }
+
+.btn-primary {
+  background: #00BAE9;
+  border: 1px solid #0092b6; }
+
+.navbar-default {
+  background-color: #00BAE9;
+  border-color: #f3f3f3; }
+  .navbar-default .navbar-brand {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; }
+  .navbar-default .navbar-nav > li > a {
+    color: #fff; }
+    .navbar-default .navbar-nav > li > a:hover {
+      color: #2C6C91; }
+
+.nav-gravatar {
+  float: left;
+  position: relative;
+  top: -6px;
+  left: -10px;
+  border: 1px solid #eeeeee; }
+
+.users {
+  margin-bottom: 3em; }
+
+.user-block {
+  text-align: center; }
+
+.user-block .media-object {
+  margin: auto; }
+
+body {
+  padding-top: 80px;
+  background-color: #f0f0f0;
+  font-family: 'Roboto', sans-serif; }
+
+.container h1:first-of-type {
+  margin-top: 0; }
+
+.page-header {
+  text-align: center;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ddd; }
